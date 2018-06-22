@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1E29DC20DD44E6004774E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E29DB20DD44E6004774E4 /* AppDelegate.m */; };
+		4C1E29DF20DD44E6004774E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E29DE20DD44E6004774E4 /* ViewController.m */; };
+		4C1E29E220DD44E6004774E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1E29E020DD44E6004774E4 /* Main.storyboard */; };
+		4C1E29E420DD44E7004774E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1E29E320DD44E7004774E4 /* Assets.xcassets */; };
+		4C1E29E720DD44E7004774E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1E29E520DD44E7004774E4 /* LaunchScreen.storyboard */; };
+		4C1E29EA20DD44E7004774E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E29E920DD44E7004774E4 /* main.m */; };
+		4C1E29F420DD44E7004774E4 /* BITUNIONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E29F320DD44E7004774E4 /* BITUNIONTests.m */; };
+		4C1E29FF20DD44E7004774E4 /* BITUNIONUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E29FE20DD44E7004774E4 /* BITUNIONUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1E29F020DD44E7004774E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1E29CF20DD44E6004774E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1E29D620DD44E6004774E4;
+			remoteInfo = BITUNION;
+		};
+		4C1E29FB20DD44E7004774E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1E29CF20DD44E6004774E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1E29D620DD44E6004774E4;
+			remoteInfo = BITUNION;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C1E29D720DD44E6004774E4 /* BITUNION.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BITUNION.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1E29DA20DD44E6004774E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C1E29DB20DD44E6004774E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C1E29DD20DD44E6004774E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C1E29DE20DD44E6004774E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C1E29E120DD44E6004774E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C1E29E320DD44E7004774E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1E29E620DD44E7004774E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C1E29E820DD44E7004774E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1E29E920DD44E7004774E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C1E29EF20DD44E7004774E4 /* BITUNIONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BITUNIONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1E29F320DD44E7004774E4 /* BITUNIONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BITUNIONTests.m; sourceTree = "<group>"; };
+		4C1E29F520DD44E7004774E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1E29FA20DD44E7004774E4 /* BITUNIONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BITUNIONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1E29FE20DD44E7004774E4 /* BITUNIONUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BITUNIONUITests.m; sourceTree = "<group>"; };
+		4C1E2A0020DD44E7004774E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1E29D420DD44E6004774E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1E29EC20DD44E7004774E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1E29F720DD44E7004774E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1E29CE20DD44E6004774E4 = {
+			isa = PBXGroup;
+			children = (
+				4C1E29D920DD44E6004774E4 /* BITUNION */,
+				4C1E29F220DD44E7004774E4 /* BITUNIONTests */,
+				4C1E29FD20DD44E7004774E4 /* BITUNIONUITests */,
+				4C1E29D820DD44E6004774E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1E29D820DD44E6004774E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E29D720DD44E6004774E4 /* BITUNION.app */,
+				4C1E29EF20DD44E7004774E4 /* BITUNIONTests.xctest */,
+				4C1E29FA20DD44E7004774E4 /* BITUNIONUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1E29D920DD44E6004774E4 /* BITUNION */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E29DA20DD44E6004774E4 /* AppDelegate.h */,
+				4C1E29DB20DD44E6004774E4 /* AppDelegate.m */,
+				4C1E29DD20DD44E6004774E4 /* ViewController.h */,
+				4C1E29DE20DD44E6004774E4 /* ViewController.m */,
+				4C1E29E020DD44E6004774E4 /* Main.storyboard */,
+				4C1E29E320DD44E7004774E4 /* Assets.xcassets */,
+				4C1E29E520DD44E7004774E4 /* LaunchScreen.storyboard */,
+				4C1E29E820DD44E7004774E4 /* Info.plist */,
+				4C1E29E920DD44E7004774E4 /* main.m */,
+			);
+			path = BITUNION;
+			sourceTree = "<group>";
+		};
+		4C1E29F220DD44E7004774E4 /* BITUNIONTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E29F320DD44E7004774E4 /* BITUNIONTests.m */,
+				4C1E29F520DD44E7004774E4 /* Info.plist */,
+			);
+			path = BITUNIONTests;
+			sourceTree = "<group>";
+		};
+		4C1E29FD20DD44E7004774E4 /* BITUNIONUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1E29FE20DD44E7004774E4 /* BITUNIONUITests.m */,
+				4C1E2A0020DD44E7004774E4 /* Info.plist */,
+			);
+			path = BITUNIONUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1E29D620DD44E6004774E4 /* BITUNION */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1E2A0320DD44E7004774E4 /* Build configuration list for PBXNativeTarget "BITUNION" */;
+			buildPhases = (
+				4C1E29D320DD44E6004774E4 /* Sources */,
+				4C1E29D420DD44E6004774E4 /* Frameworks */,
+				4C1E29D520DD44E6004774E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BITUNION;
+			productName = BITUNION;
+			productReference = 4C1E29D720DD44E6004774E4 /* BITUNION.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C1E29EE20DD44E7004774E4 /* BITUNIONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1E2A0620DD44E7004774E4 /* Build configuration list for PBXNativeTarget "BITUNIONTests" */;
+			buildPhases = (
+				4C1E29EB20DD44E7004774E4 /* Sources */,
+				4C1E29EC20DD44E7004774E4 /* Frameworks */,
+				4C1E29ED20DD44E7004774E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1E29F120DD44E7004774E4 /* PBXTargetDependency */,
+			);
+			name = BITUNIONTests;
+			productName = BITUNIONTests;
+			productReference = 4C1E29EF20DD44E7004774E4 /* BITUNIONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C1E29F920DD44E7004774E4 /* BITUNIONUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1E2A0920DD44E7004774E4 /* Build configuration list for PBXNativeTarget "BITUNIONUITests" */;
+			buildPhases = (
+				4C1E29F620DD44E7004774E4 /* Sources */,
+				4C1E29F720DD44E7004774E4 /* Frameworks */,
+				4C1E29F820DD44E7004774E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1E29FC20DD44E7004774E4 /* PBXTargetDependency */,
+			);
+			name = BITUNIONUITests;
+			productName = BITUNIONUITests;
+			productReference = 4C1E29FA20DD44E7004774E4 /* BITUNIONUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1E29CF20DD44E6004774E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = michael;
+				TargetAttributes = {
+					4C1E29D620DD44E6004774E4 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					4C1E29EE20DD44E7004774E4 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 4C1E29D620DD44E6004774E4;
+					};
+					4C1E29F920DD44E7004774E4 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 4C1E29D620DD44E6004774E4;
+					};
+				};
+			};
+			buildConfigurationList = 4C1E29D220DD44E6004774E4 /* Build configuration list for PBXProject "BITUNION" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1E29CE20DD44E6004774E4;
+			productRefGroup = 4C1E29D820DD44E6004774E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1E29D620DD44E6004774E4 /* BITUNION */,
+				4C1E29EE20DD44E7004774E4 /* BITUNIONTests */,
+				4C1E29F920DD44E7004774E4 /* BITUNIONUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1E29D520DD44E6004774E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1E29E720DD44E7004774E4 /* LaunchScreen.storyboard in Resources */,
+				4C1E29E420DD44E7004774E4 /* Assets.xcassets in Resources */,
+				4C1E29E220DD44E6004774E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1E29ED20DD44E7004774E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1E29F820DD44E7004774E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1E29D320DD44E6004774E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1E29DF20DD44E6004774E4 /* ViewController.m in Sources */,
+				4C1E29EA20DD44E7004774E4 /* main.m in Sources */,
+				4C1E29DC20DD44E6004774E4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1E29EB20DD44E7004774E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1E29F420DD44E7004774E4 /* BITUNIONTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1E29F620DD44E7004774E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1E29FF20DD44E7004774E4 /* BITUNIONUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C1E29F120DD44E7004774E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1E29D620DD44E6004774E4 /* BITUNION */;
+			targetProxy = 4C1E29F020DD44E7004774E4 /* PBXContainerItemProxy */;
+		};
+		4C1E29FC20DD44E7004774E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1E29D620DD44E6004774E4 /* BITUNION */;
+			targetProxy = 4C1E29FB20DD44E7004774E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C1E29E020DD44E6004774E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1E29E120DD44E6004774E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C1E29E520DD44E7004774E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1E29E620DD44E7004774E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C1E2A0120DD44E7004774E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C1E2A0220DD44E7004774E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1E2A0420DD44E7004774E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BITUNION/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = michaelpassion.BITUNION;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C1E2A0520DD44E7004774E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BITUNION/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = michaelpassion.BITUNION;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C1E2A0720DD44E7004774E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BITUNIONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = michaelpassion.BITUNIONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BITUNION.app/BITUNION";
+			};
+			name = Debug;
+		};
+		4C1E2A0820DD44E7004774E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BITUNIONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = michaelpassion.BITUNIONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BITUNION.app/BITUNION";
+			};
+			name = Release;
+		};
+		4C1E2A0A20DD44E7004774E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BITUNIONUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = michaelpassion.BITUNIONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BITUNION;
+			};
+			name = Debug;
+		};
+		4C1E2A0B20DD44E7004774E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BITUNIONUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = michaelpassion.BITUNIONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BITUNION;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1E29D220DD44E6004774E4 /* Build configuration list for PBXProject "BITUNION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1E2A0120DD44E7004774E4 /* Debug */,
+				4C1E2A0220DD44E7004774E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1E2A0320DD44E7004774E4 /* Build configuration list for PBXNativeTarget "BITUNION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1E2A0420DD44E7004774E4 /* Debug */,
+				4C1E2A0520DD44E7004774E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1E2A0620DD44E7004774E4 /* Build configuration list for PBXNativeTarget "BITUNIONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1E2A0720DD44E7004774E4 /* Debug */,
+				4C1E2A0820DD44E7004774E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1E2A0920DD44E7004774E4 /* Build configuration list for PBXNativeTarget "BITUNIONUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1E2A0A20DD44E7004774E4 /* Debug */,
+				4C1E2A0B20DD44E7004774E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C1E29CF20DD44E6004774E4 /* Project object */;
+}
