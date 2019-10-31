@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BITThreadCellIdentfier" rowHeight="86" id="KGk-i7-Jjw" customClass="BITThreadTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="85.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGG-LQ-P23">
+                        <rect key="frame" x="16" y="11" width="288" height="43"/>
+                        <attributedString key="attributedText">
+                            <fragment content="topic">
+                                <attributes>
+                                    <font key="NSFont" metaFont="system" size="17"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="author" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emQ-BW-TAh">
+                        <rect key="frame" x="16" y="60" width="42" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.11143975152431378" green="0.35891639567389061" blue="0.84705882352941175" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qyl-iw-9Mn">
+                        <rect key="frame" x="275.5" y="62" width="28.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="emQ-BW-TAh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="5vY-8D-LvM"/>
+                    <constraint firstItem="emQ-BW-TAh" firstAttribute="top" secondItem="fGG-LQ-P23" secondAttribute="bottom" constant="6" id="8VJ-EE-TKS"/>
+                    <constraint firstAttribute="trailing" secondItem="Qyl-iw-9Mn" secondAttribute="trailing" constant="16" id="Fyb-8w-Shc"/>
+                    <constraint firstAttribute="bottom" secondItem="emQ-BW-TAh" secondAttribute="bottom" constant="8.5" id="Tgo-Ap-R9B"/>
+                    <constraint firstItem="fGG-LQ-P23" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="USR-96-6p0"/>
+                    <constraint firstAttribute="trailing" secondItem="fGG-LQ-P23" secondAttribute="trailing" constant="16" id="Zvr-bb-7Pq"/>
+                    <constraint firstItem="fGG-LQ-P23" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="olV-kW-bYg"/>
+                    <constraint firstAttribute="bottom" secondItem="Qyl-iw-9Mn" secondAttribute="bottom" constant="6.5" id="w7c-gG-fh3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="authorLabel" destination="emQ-BW-TAh" id="OIW-UU-WhB"/>
+                <outlet property="timeLabel" destination="Qyl-iw-9Mn" id="A8F-aO-WS7"/>
+                <outlet property="topicLabel" destination="fGG-LQ-P23" id="q82-7q-hpU"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="180.80959520239881"/>
+        </tableViewCell>
+    </objects>
+</document>
